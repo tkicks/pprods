@@ -1,9 +1,24 @@
 html {
 	font-family: 'Neuton', serif;
 	font-size: 50px;
-	color: #44127D;
+	color: #000000;
 	background-image: url("http://ecx.images-amazon.com/images/I/51QyhsSam0L._SY344_BO1,204,203,200_.jpg");
 }
+
+
+.slidetitle {
+	color: black;
+	text-align: center;
+}
+
+.firstBullet {
+	color: black;
+}
+
+.subBullet {
+	margin-left: 50px;
+}
+
 
 #strongtext {
 	font-weight: 800;
@@ -57,7 +72,7 @@ html {
 .fancytext3 {
 	color: aqua;
 	font-size: 1em;
-	text-transform: lowercase;
+	text-transform: 'lowercase';
 	text-shadow: 8px 20px 4px gray;
 	padding: 30px;
 	display: inherit;
@@ -84,7 +99,8 @@ html {
 	height: 100%;
 	text-align: justify;
 	font-size: .9em;
-	color: #006400;
+	line-height: 70%;
+	color: #800;
 }
 
 .transform2 {
@@ -314,12 +330,12 @@ code {
 }
 
 .move_letters {
-	letter-spacing: -12px;
-	-webkit-animation: movelets 8s infinite;
+	word-spacing: normal;
+	-webkit-animation: movelets 2s 1;
 }
 
 @-webkit-keyframes movelets {
-	50% {letter-spacing: 47px;}
+	0% {word-spacing: 400px};
 }
 
 #no_wspace {
