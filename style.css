@@ -364,9 +364,10 @@ code {
 }
 
 .move_letters {
-	word-spacing: normal;
+	/*word-spacing: normal;*/
 	-webkit-animation: movelets 2s 1;
 	-webkit-animation-play-state: paused;
+	-webkit-animation-delay: 1s;
 }
 
 @-webkit-keyframes movelets {
