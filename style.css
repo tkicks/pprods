@@ -5,6 +5,29 @@ html {
 	/*background-image: url("http://ecx.images-amazon.com/images/I/51QyhsSam0L._SY344_BO1,204,203,200_.jpg");*/
 }
 
+#mild_bulb {
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+	border-top-left-radius: 40%;
+	border-top-right-radius: 40%;
+	border-top: none;
+	background-color: #1fdf00;
+	border-color: #1fdf00;
+}
+
+#medium_tube {
+	width: 6em;
+	height: 13em;
+	border: none;
+	border-radius: 50%;
+	border-top-left-radius: 15%;
+	border-top-right-radius: 15%;
+	border-bottom-left-radius: 15%;
+	border-bottom-right-radius: 15%;
+	background: linear-gradient(#f00, #00ff00);
+}
+
 .slidetitle {
 	color: black;
 	text-align: center;
