@@ -2,23 +2,7 @@ html {
 	font-family: 'Neuton', serif;
 	font-size: 50px;
 	color: #000000;
-	background-image: url("http://ecx.images-amazon.com/images/I/51QyhsSam0L._SY344_BO1,204,203,200_.jpg");
-}
-
-.author {
-	font-size: 24px;
-	line-height: 100%;
-	margin-top: -30px;
-	padding-bottom: 30px;
-	color: black;
-	text-align: center;
-}
-
-.names {
-	font-size: 24px;
-	line-height: 70%;
-	color: black;
-	text-align: center;
+	/*background-image: url("http://ecx.images-amazon.com/images/I/51QyhsSam0L._SY344_BO1,204,203,200_.jpg");*/
 }
 
 .slidetitle {
@@ -37,6 +21,11 @@ html {
 .bold {
 	font-weight: bold;
 	font-size: 40px;
+}
+
+.definition {
+	margin-top: -50px;
+	margin-left: 2.3em;
 }
 
 .workLife {
@@ -134,7 +123,7 @@ html {
 	text-align: justify;
 	font-size: .9em;
 	line-height: 70%;
-	color: #800;
+	/*color: #800;*/
 }
 
 .transform5 {
@@ -142,8 +131,8 @@ html {
 	height: 100%;
 	text-align: left;
 	font-size: .9em;
-	line-height: 70%;
-	color: #800;
+	line-height: 100%;
+	/*color: #800;*/
 }
 
 .transform2 {
