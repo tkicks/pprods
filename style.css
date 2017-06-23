@@ -8,6 +8,7 @@ html {
 #calBellDesc {
 	width: 600;
 	height: 400;
+	background-color: #9f7;
 	visibility: hidden;
 }
 
