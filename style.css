@@ -12,7 +12,7 @@ html {
 	visibility: hidden;
 }
 
-#calBell:hover > #calBellDesc {
+#calBell:hover #calBellDesc {
 	visibility: visible;
 }
 
