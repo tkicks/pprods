@@ -5,11 +5,11 @@ function showDesc(whichDesc) {
 	console.log(whichDesc);
 	var index = descIndeces.indexOf(whichDesc);
 	console.log(descriptions[index]);
-	document.getElementById("calBellDesc").text = descriptions[index];
+	document.getElementById("calBellDesc").text(descriptions[index]);
 	document.getElementById("calBellDesc").style.visibility = "visible";
 }
 
 function hideDesc() {
-	document.getElementById("calBellDesc").text = "";
+	document.getElementById("calBellDesc").text("");
 	document.getElementById("calBellDesc").style.visibility = "hidden";
 }
