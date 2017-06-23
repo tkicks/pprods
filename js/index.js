@@ -10,6 +10,6 @@ function showDesc(whichDesc) {
 }
 
 function hideDesc() {
-	document.getElementById("calBellDesc").textContent = "";
-	document.getElementById("calBellDesc").style.visibility = hidden;
+	document.getElementById("calBellDesc").text = "";
+	document.getElementById("calBellDesc").style.visibility = "hidden";
 }
