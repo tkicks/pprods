@@ -5,6 +5,16 @@ html {
 	/*background-image: url("http://ecx.images-amazon.com/images/I/51QyhsSam0L._SY344_BO1,204,203,200_.jpg");*/
 }
 
+#calBellDesc {
+	width: 600;
+	height: 400;
+	visibility: hidden;
+}
+
+#calBell:hover > calBellDesc {
+	visibility: visible;
+}
+
 #mild_bulb {
 	width: 10em;
 	height: 10em;
